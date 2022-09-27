@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/inputtext"
-        android:hint="I love Android"
+        android:text="@string/I_love_Android"
         android:textSize="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -24,7 +24,7 @@
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Switch on/off"
+        android:text="@string/switch_on_off"
         tools:layout_editor_absoluteX="5dp"
         tools:layout_editor_absoluteY="42dp" />
 
@@ -32,7 +32,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press Me"
+        android:text="@string/Press_Me"
         tools:layout_editor_absoluteX="5dp"
         tools:layout_editor_absoluteY="137dp" />
 
@@ -40,7 +40,7 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Check this out!"
+        android:text="@string/check_this_out"
         tools:layout_editor_absoluteX="282dp"
         tools:layout_editor_absoluteY="137dp" />
 
@@ -49,7 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="I love Android"
+        android:hint="@string/i_love_android"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="185dp" />
